@@ -16,7 +16,13 @@
 			<td align="center"><a href="adminArticulo?action=mostrar">Mostrar</a></td>
 		</tr>
 	</table>
-	
+	<form action="adminArticulo">
+		<p>
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre" maxlength="50" />
+		</p>
+		<input type="submit" value="Enviar">
+	</form>
 	
 </body>
 </html>

@@ -46,7 +46,7 @@ public class AdminArticulo extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        System.out.println("Hola Servlet..");
+        System.out.println("Hola Servlet.. en doget");
         String action = request.getParameter("action");
         System.out.println(action);
         try {
@@ -89,7 +89,7 @@ public class AdminArticulo extends HttpServlet {
      */
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        System.out.println("Hola Servlet..");
+        System.out.println("Hola Servlet.. en the post");
         doGet(request, response);
     }
 

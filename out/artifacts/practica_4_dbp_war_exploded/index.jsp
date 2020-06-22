@@ -7,7 +7,7 @@
 <title>Artículos Java Web JSP y Servlet</title>
 </head>
 <body>
-	<h1>Administrar Artículos</h1>
+	<h1>aaaaAdministrar Artículosaaaa</h1>
 	<table border="1" width="50%" align="center">
 		<tr>
 			<td align="center"><a href="adminArticulo?action=nuevo">Nuevo</a></td>			
@@ -16,7 +16,13 @@
 			<td align="center"><a href="adminArticulo?action=mostrar">Mostrar</a></td>
 		</tr>
 	</table>
-	
+	<form action="adminArticulo">
+		<p>
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre" maxlength="50" />
+		</p>
+		<input type="submit" value="Enviar">
+	</form>
 	
 </body>
 </html>
